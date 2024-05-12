@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Document</title>
+</head>
+<style>
+    .topic{
+        border-bottom-style: inset;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        line-height: 0%;
+        margin-left: 3px;
+
+    }
+    .container{
+        margin-left: 15px;
+        display:flex;
+        flex-direction:row;
+        justify-content:left;
+        gap: 15px;
+        width:300px;
+        }
+        .card{
+            margin-bottom: 5px;
+            position: relative;
+            top:10px;
+            right: 10px;
+          
+        }
+        img{
+            width: 200px;
+            height: 150px;
+            border: 1px solid violet;
+        }
+        .content{
+            font-size: small;  
+            width: 200px;
+            
+        }
+        .box{
+         
+            padding:10px;
+            display: flex;
+            justify-content: space-between;
+            background-color: aliceblue;
+            font-size: smaller;
+            border-bottom: 1px solid aliceblue;
+        }
+        span{
+            margin-left: 10px;
+            text-align:left;
+            border-bottom-style: inset;
+        }
+        .click{
+            position: relative;
+            width: 200px;
+           
+        }
+        button{
+            position: absolute;
+            top:2px;
+            right: 2px;
+            width: 80px;
+            height: 30px;
+            border: none;
+            color:white;
+            background-color: blue;
+        }
+        h2{
+            font-size: 15px;
+        }
+        h4{
+            margin-left: 5px;
+        }
+</style>
+<body>
+    <div class="topic">
+   <h4><i class='fas fa-book-open'>Cooking Blog</i></h4>
+  <h4>See All</h4>
+</div>
+    <div class="container">
+
+        <div class="card">
+            <div class="click">
+           <img src="salad.png" alt="">
+           <button>Cooking</button>
+           </div>
+           <div class="content">
+           <h2>Simplest Salad Receipe ever</h2>
+            <p>Lorem lpsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+           <div class="box">
+            <i class="fa fa-clock-o">6 mins ago</i>
+            <i class="fa-solid fa-message">39 comments</i>
+           </div>
+        </div>
+
+        <div class="card">
+            <div class="click">
+            <img src="fast.png" alt="">
+            <button>Cooking</button>
+            </div>
+            <div class="content">
+             <h2> FastFood Ideas(Yummy)</h2>
+             <p>Lorem lpsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="box">
+             <i class="fa fa-clock-o">30 days ago</i>
+             <i class='fas fa-comment-alt'>0 comments</i>
+             
+            </div>
+         </div>
+
+         <div class="card">
+            <div class="click">
+            <img src="salad1.png" alt="">
+            <button>Cooking</button>
+            </div>
+            <div class="content">
+             <h2>Why to eat salad?</h2>
+             <p>Lorem lpsum is simply dummy text of the printing and typesetting industry. </p>
+            </div>
+            <div class="box">
+             <i class="fa fa-clock-o">16 hours ago</i>
+             <i class='fas fa-comment-alt'>9 comments</i>
+            </div>
+         </div>
+
+
+    </div>
+</body>
+</html>
